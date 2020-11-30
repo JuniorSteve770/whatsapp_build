@@ -1,0 +1,98 @@
+.chatt{
+    flex: 0.65;
+    /* display:flex; */
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;  
+}
+
+.chatts_Header{
+    display:flex;
+    padding:15px; 
+    align-items: center;
+    border-bottom: 2px solid #000;
+
+}
+
+.chat_Header_Infos{
+    flex: 1;   
+    padding-left: 10px;
+    
+}
+
+.chat_Header_Infos>h3{
+    margin-bottom: 3px;
+    font-weight: 500;
+}
+
+.chat_Header_Infos>p{
+    color: gray;
+}
+
+.chatt_Header_rigth{
+    display: flex;
+    justify-content: space-between;
+    min-width: 100px;
+
+}
+
+.chatt_Body{
+    flex: 1;
+    background-image:  url("https://cutewallpaper.org/21/whatsapp-background-wallpapers/Whatsapp-background-wallpaper-android-3-A-Background-Download.jpg");
+    background-repeat: repeat;
+    background-position: center;
+    padding: 30px;    
+     overflow: scroll; /* to scroll the text on image */ 
+}
+
+.chatt_message{
+    position: relative;
+    font-size: 16px;
+    padding: 10px;
+    background-color: #fcfcfc;
+    border-radius: 10px;
+    width: fit-content;
+    margin-bottom: 15px;
+
+}
+.chatt_receiver{
+    margin-left: auto;
+    background-color: #a8f8c7;
+}
+.chatt_name{
+    position: absolute;
+    top: -15px;
+    font-weight: 800;
+    font-size: xx-small;
+    /* left: 10px; */
+}
+.chatt_time{
+    margin-left: 10px;
+    font-size: xx-small;
+}
+.chatt_Footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid rgb(148, 143, 143);
+}
+.chatt_Footer>form{
+    flex: 1;
+    display: flex;
+}
+.chatt_Footer>form>input{
+    flex: 0.95;
+    border-radius: 80px;
+    border: none;
+
+}
+.chatt_Footer>form>button{
+    display: none;
+}
+.chatt_Footer>.MuiSvgIcon-root{
+    margin-right: 2vw;
+    font-size: 24px;
+}
+
+
+

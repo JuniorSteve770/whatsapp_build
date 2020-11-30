@@ -1,0 +1,29 @@
+.subSidebar{
+    display: flex;
+    padding: 10px;
+    cursor: pointer;
+    
+    border-bottom: 1px solid rgb(197, 123, 123) ;
+}
+a {
+    text-decoration: none !important;
+    color: black;
+}
+.subSidebar>h3{
+    display: flex;
+    /* position: relative; */
+    padding-left: 15px;    
+    text-decoration: none !important;
+    color: crimson;
+}
+.subSidebar:hover{
+    background-color: bisque;   
+}
+.subSidebar_infos>h2{ 
+    font-size: 16px;
+    margin-bottom: 4px;
+}
+.subSidebar_infos{ 
+    
+    margin-left: 13px;
+}
